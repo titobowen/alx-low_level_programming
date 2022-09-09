@@ -1,7 +1,5 @@
 #include <stdio.h>
-/*
- *  prints out the letters in lowercase 
-*/
+/* prints out the letters in lowercase*/
 int main(void)
 {
 	char n = 'a';
