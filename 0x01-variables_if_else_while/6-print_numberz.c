@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*display numbers*/
-int main(void){
+int main(void)
 {
 	int a;
 
@@ -10,4 +10,4 @@ int main(void){
 	}
 	putchar('\n');
 	return (0);
-	}
+}
