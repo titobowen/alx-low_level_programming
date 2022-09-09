@@ -5,9 +5,10 @@ int main(void)
 	char a;
 	char b = '0';
 
-	for (b = '0'; b < '10'; b++);
+	while(b < '10')
 	{
 		putchar(b);
+		b++;
 	}
 	for (a = 'a'; a <= 'f'; a++);
 	{
