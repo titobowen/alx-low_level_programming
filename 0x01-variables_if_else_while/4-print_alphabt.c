@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*print letters except q and e*/
-int main (void)
+int main(void)
 {
 	/*while loop to implement code*/
 	char a;
