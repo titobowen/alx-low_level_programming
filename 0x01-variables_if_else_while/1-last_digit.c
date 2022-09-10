@@ -4,8 +4,8 @@
 /**
  * main - Entry point
  * Description: assign random number
- * Return:b Always 0 (success) 
- */
+ * Return:b Always 0 (success)
+ */
 int main(void)
 {
 	int n, m;
