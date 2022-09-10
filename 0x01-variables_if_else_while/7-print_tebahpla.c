@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*all lowercase in reverse*/
+/** 
+ * main - Entry poin                                                                            
+ * Description: print lowercase alphabet in reverse
+ * Return:b Always 0 (success)
+ */
 int main(void)
 {
 	int a;

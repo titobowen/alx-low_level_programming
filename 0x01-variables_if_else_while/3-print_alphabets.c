@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*print letters in uppercase and lowercase*/
+/**                                                                                                                              
+ * main - Entry point                                                                                                            
+ * Description: print lowercase and uppercase                                                                                             
+ * Return:b Always 0 (success)                                                                                                   
+ */
 int main(void)
 {
 	/*printer function*/

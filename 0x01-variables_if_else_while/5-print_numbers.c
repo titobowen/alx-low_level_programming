@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*print binary numbers*/
+/**                                                                                                                              
+ * main - Entry point                                                                                                            
+ * Description: print base 10                                                                                       
+ * Return:b Always 0 (success)                                                                                                   
+ */
 int main(void)
 {
 	int a;

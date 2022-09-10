@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*print letters except q and e*/
+/**                                                                                                                              
+ * main - Entry point                                                                                                            
+ * Description: print lowercase alphabet                                                                                            
+ * Return:b Always 0 (success)                                                                                                   
+ */
 int main(void)
 {
 	/*while loop to implement code*/

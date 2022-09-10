@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*display numbers*/
+/**                                                                                                                              
+ * main - Entry point                                                                                                            
+ * Description: print base 10 digit                                                                      
+ * Return:b Always 0 (success)                                                                                                   
+ */
 int main(void)
 {
 	int a;
