@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: assigned random values
+ * Description: checks on the last digit of the assigned var
  * Return:b Always 0 (success)
  */
 int main(void)
