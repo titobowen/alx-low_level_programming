@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- * main - print if the value is positive, negative or zero
- *
- * Description: using the main function
- * program points postive, negative or zero 
- * REturn: 0
+ * main - Entry point
+ * Description: Print base 16 numbers
+ * Return: Always 0 (success)
  */
 int main(void)
 {
