@@ -1,11 +1,17 @@
 #include <stdio.h>
-/*base 16 lowercase*/
+/**
+ * main - print if the value is positive, negative or zero
+ *
+ * Description: using the main function
+ * program points postive, negative or zero 
+ * REturn: 0
+ */
 int main(void)
 {
 	char a;
 	char b = '0';
 
-	while(b <= '9')
+	while (b <= '9')
 	{
 		putchar(b);
 		b++;
