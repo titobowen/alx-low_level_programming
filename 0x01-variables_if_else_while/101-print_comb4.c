@@ -16,14 +16,16 @@ int main(void)
 		{
 			for (c = 0; c <= 9; c++)
 			{
-				if (c != a && c != b && a != b &&n a != c)
+				if (a < b && b < c)
 					putchar(a);
 					putchar(b);
 					putchar(c);
+				if (a <= 7)
+					putchar(',');
+					putchar(' ');
 			}
 		}
 	}
-	putchar(',');
-	putchar(' ');
+	putchar('\n')
 	return (0);
 }
