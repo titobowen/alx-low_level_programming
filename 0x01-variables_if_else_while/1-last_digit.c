@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * DEscription: prints numbers
- * return: Always 0 (success)
+ * Description: prints numbers
+ * Return: Always 0 (success)
  */
 int main(void)
 {
