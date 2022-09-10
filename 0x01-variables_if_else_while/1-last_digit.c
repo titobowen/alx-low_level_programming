@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print if the number is positive, zero, or negative
+ * main : prints a random number 
  * Description: checks on the last digit of the assigned variable
  * Return: 0
  */
