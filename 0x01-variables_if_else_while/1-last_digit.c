@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print if the number is positive, zero or negative
+ * main - print if the number is positive, zero, or negative
  * Description: checks on the last digit of the assigned variable
- * Return: Always 0 (success)
+ * Return: 0
  */
 int main(void)
 {
