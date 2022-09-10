@@ -1,8 +1,8 @@
 #include <stdio.h>
-/**                                                                                                                              
- * main - Entry point                                                                                                            
- * Description: print base 10 digit                                                                      
- * Return:b Always 0 (success)                                                                                                   
+/**
+ * main - Entry point
+ * Description: prints all base10 numbers
+ * Return: Always 0 (success)
  */
 int main(void)
 {
