@@ -5,7 +5,7 @@
  * Description: checks alpha character
  * Return: Always 0 (success)
  */
-int isalpha(int c)
+int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
