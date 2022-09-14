@@ -13,7 +13,11 @@ int print_last_digit(int c)
 	{
 		l = c * -1;
 	}
-	else if (c = 0)
+	else if (c > 0)
+	{
+		l = c * 1;
+	}
+	else
 	{
 		l = 0;
 	}
