@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int print_sign - function prints and checks values
+ * print_sign - function prints and checks values
  * @n:carrier variable
  * Description: prints values
  * Return: 1 if n > 0
