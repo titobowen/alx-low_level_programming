@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * _isalpha(int c)- function that checks for alpha character
+ * _isalpha - function that checks for alpha character
+ * @c: carrier variable
  * Description: checks alpha character
  * Return: Always 0 (success)
  */
