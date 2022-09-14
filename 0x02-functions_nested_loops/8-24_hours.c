@@ -6,7 +6,7 @@
  */
 void jack_bauer(void)
 {
-	int hour= 0;
+	int hour = 0;
 	int mins = 0;
 	int h_r;
 	int m_r;
@@ -26,6 +26,5 @@ void jack_bauer(void)
 			_putchar('\n');
 		}
 		hour++;
-		mins = 0;
 	}
 }
