@@ -1,6 +1,4 @@
-#include <unistd.h>
 #include <stdio.h>
-#include "main.h"
 /**
  * main - Entry point
  * Description: prints putchar
