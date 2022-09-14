@@ -4,9 +4,7 @@
  * Description: prints putchar
  * Return - Always 0 (success)
  */
-int main(void)
+int _putchar(char c)
 {
-	putchar('_putchar');
-	putchar('\n');
-	return (0);
+	return(1, &c, 1);
 }
