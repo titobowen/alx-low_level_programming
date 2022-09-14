@@ -1,12 +1,10 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
  * Description: prints putchar
  * Return - Always 0 (success)
  */
-int main(void)
+int _putchar(char c)
 {
-	putchar('_putchar');
-	putchar('\n');
-	return (0);
+	return (write(1 &c, 1);
 }
