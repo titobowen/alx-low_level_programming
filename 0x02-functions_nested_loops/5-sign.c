@@ -1,8 +1,9 @@
 #include "main.h"
 /**
+ * @n: carrier variable
  * int print_sign(int n)- function prints and checks values
  * Descroption: prints values
- * Return: Always 0 (sucess)
+ * Return: 1 if n > 0
  */
 int print_sign(int n)
 {
