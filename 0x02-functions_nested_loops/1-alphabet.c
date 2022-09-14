@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - function tp print abc
  * Description: prints alphabet in new line
  * Return: Alway 0 (success)
  */
