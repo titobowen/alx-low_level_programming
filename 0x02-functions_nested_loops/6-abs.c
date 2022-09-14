@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _abs - prints the absolute integer
+ * _abs - prints the absolute integer
  * @n: an integer
  * Description: prints an absolute integer
  * Return: Always 0 (success)
