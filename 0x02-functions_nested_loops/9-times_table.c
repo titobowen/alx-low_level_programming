@@ -14,16 +14,16 @@ void times_table(void)
 	{
 		row <= 9;
 		row++;
-	while (column = 0;)
-	{
-		column <= 9;
-		result = row * column;
-		_putchar(result);
-		if (row <= 9)
+		while (column = 0;)
 		{
-			_putchar(',');
-			_putchar(' ');
+			column <= 9;
+			result = row * column;
+			_putchar(result);
+			if (row <= 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
-	}
 	}
 }
