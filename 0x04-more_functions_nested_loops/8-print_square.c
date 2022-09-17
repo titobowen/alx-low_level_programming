@@ -20,7 +20,7 @@ void print_square(int size)
 		_putchar('\n');
 		a++;
 	}
-	if (size == 0)
+	if (a == 0)
 	{
 		_putchar('\n');
 	}
