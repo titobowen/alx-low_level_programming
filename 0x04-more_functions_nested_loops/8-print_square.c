@@ -7,11 +7,11 @@
  */
 void print_square(int size)
 {
-	int a = 0;
-	int b = 0;
+	int a = 0, b;
 
 	while (a < size && size > 0)
 	{
+		b = 0;
 		while (b < size)
 		{
 			_putchar('#');

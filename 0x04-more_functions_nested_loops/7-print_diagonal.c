@@ -7,11 +7,11 @@
  */
 void print_diagonal(int n)
 {
-	int i = 0;
-	int a = 0;
+	int i = 0, a;
 
 	while (i < n && n > 0)
 	{
+		a = 0;
 		while (a < i)
 		{
 			_putchar(' ');
