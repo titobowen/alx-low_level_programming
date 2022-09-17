@@ -1,20 +1,21 @@
 #include "main.h"
 /**
- * print_most_numbers - prints numbers
+ * more_numbers - prints numbers and line
  * Description: prints numbers
  * Return: Always 0 (success)
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
-	int a = 0;
+	int a;
+	int b;
 
-	while (a <= 9)
+	for (b = 1; b <= 10; b++)
 	{
-		if (a != 2 && a != 4)
+		for (a = 0; a <= 14; a++)
 		{
 			_putchar(a + '0');
 		}
 		_putchar('\n');
-		a++;
 	}
 }
+
