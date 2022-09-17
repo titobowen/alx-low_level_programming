@@ -1,5 +1,11 @@
-#ifndef HOLBERTON
-#define HOLBERTON
+#ifndef MAIN_H
+#define MAIN_H
+
+/*
+ * File - main.h
+ * Author: basit
+ * Desc: header contains proto for all functions used
+ */
 
 int _putchar(char c);
 int _isupper(int c);
