@@ -8,7 +8,7 @@
  */
 void print_triangle(int size)
 {
-	int a = 0;
+	int a = 1;
 	int b;
 	int c;
 
@@ -18,19 +18,23 @@ void print_triangle(int size)
 	}
 	else
 	{
-		while (a < size && size > 0)
+		while (a <= size)
 		{
 			while (b > 0)
 			{
-				b = size - 1 - a;
+				b = size - a;
 				_putchar(' ');
 				b--;
 			}
-			while (c <= a)
+			while (c < a)
 			{
 				c = 0;
 				_putchar('#');
 				c++;
+			}
+			if (a == size)
+			{
+				continue;
 			}
 			_putchar('\n');
 			a++;
