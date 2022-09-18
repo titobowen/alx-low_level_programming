@@ -30,7 +30,7 @@ void print_triangle(int size)
 			while (c <= a)
 			{
 				_putchar('#');
-				b++;
+				c++;
 			}
 			_putchar('\n');
 			a++;
