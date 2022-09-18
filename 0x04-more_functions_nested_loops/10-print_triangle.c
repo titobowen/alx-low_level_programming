@@ -7,7 +7,7 @@
  */
 void print_triangle(int size)
 {
-	int a = 1, b, c;
+	int a = 0, b, c;
 
 	if (size <= 0)
 	{
@@ -15,20 +15,20 @@ void print_triangle(int size)
 	}
 	else
 	{
-		while (a <= size && size > 0)
+		while (a < size && size > 0)
 		{
-			b = 0;
-			while (b < size - 2)
+			b = size - 1;
+			while (b > 0)
 			{
 				_putchar(' ');
+				b--;
+			}
+			c = 0;
+			while (c <= a)
+			{
+				_putchar('#');
 				b++;
 			}
-				c = 0;
-				while (c < a)
-				{
-					_putchar('#');
-					b++;
-				}
 			_putchar('\n');
 			a++;
 		}
