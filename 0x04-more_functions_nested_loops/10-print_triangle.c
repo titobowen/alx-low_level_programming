@@ -20,15 +20,15 @@ void print_triangle(int size)
 	{
 		while (a < size && size > 0)
 		{
-			b = size - 1;
 			while (b > 0)
 			{
+				b = size - 1;
 				_putchar(' ');
 				b--;
 			}
-			c = 0;
 			while (c <= a)
 			{
+				c = 0;
 				_putchar('#');
 				c++;
 			}
