@@ -20,6 +20,6 @@ void print_array(int *a, int n)
 		else if (a[i] == '\0')
 		{
 			printf("\n");
-	}
+		}
 	printf("\n");
 }
