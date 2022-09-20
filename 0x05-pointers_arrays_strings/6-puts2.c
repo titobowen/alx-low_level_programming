@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts - prints every other character
+ * puts2 - prints every other character
  * @str: string to be checked
  * Return: void
  */
@@ -14,7 +14,7 @@ void puts2(char *str)
 		{
 			_putchar(str[i]);
 		}
-		a++;
+		i++;
 	}
 	_putchar('\0');
 }
