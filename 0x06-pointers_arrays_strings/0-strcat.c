@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcat - joins two string
+ * _strcat - joins two string
  * @src: first string variable
  * @dest: second string variable
  * Return: dest
