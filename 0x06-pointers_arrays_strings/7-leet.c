@@ -15,7 +15,7 @@ char *leet(char *s)
 	{
 		for (ii = 0; ii <= 4; ii++)
 		{
-			if (s[i] == a1[ii] || A1[ii])
+			if (s[i] == a1[ii] || s[i] == A1[ii])
 			{
 				s[i] = t[ii];
 			}
