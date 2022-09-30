@@ -11,7 +11,6 @@ int main(int argc, char *argv[])
 	int arg1;
 	int arg2;
 	int prod;
-	int i;
 
 	if (argc != 3)
 	{
